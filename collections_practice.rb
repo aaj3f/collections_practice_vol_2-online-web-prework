@@ -38,5 +38,5 @@ def count_elements(array)
       new_array << {name: a[:name], count: 1}
     end
   end
-
+  new_array
 end
