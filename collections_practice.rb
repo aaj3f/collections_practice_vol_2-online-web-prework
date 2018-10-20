@@ -25,10 +25,7 @@ def first_wa(array)
   end
 end
 
-## This lab is apparently in the wrong place in the curriculum
-## The learn.co staff (Tyler Taylor) suggested skipping for now
-## Anyway, the method below is broken right now
-## I'll try to return once I've learned more on hashes
+## Already skipped this lab once. Here we go again.
 def count_elements(array)
   array.each do |hash_one|
     hash_one[:count] = 0
@@ -40,4 +37,10 @@ def count_elements(array)
     end
   end
   array.uniq
+end
+
+def merge_data(keys, data)
+  #keys is a HASH of an ARRAY of TWO hashes
+  #data is a HASH of an ARRAY of ONE hash with TWO keys, each of whose values are hashes
+  binding.pry
 end
