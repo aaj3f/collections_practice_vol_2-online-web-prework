@@ -31,8 +31,8 @@ end
 ## I'll try to return once I've learned more on hashes
 def count_elements(array)
   array.each do |hash_one|
-    hash[:count] = 0
-    name = hash[:name]
+    hash_one[:count] = 0
+    name = hash_one[:name]
     array.each do |hash_two|
       if name == hash_two[:name]
         hash[:count] += 1
