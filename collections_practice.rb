@@ -30,5 +30,13 @@ end
 ## Anyway, the method below is broken right now
 ## I'll try to return once I've learned more on hashes
 def count_elements(array)
+  new_array = []
+  array.sort do |a, b|
+    if a == b
+      new_array << {name: a[:name], count: 2}
+    else
+      new_array << {name: a[:name], count: 1}
+    end
+  end
 
 end
