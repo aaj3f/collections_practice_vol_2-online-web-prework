@@ -34,7 +34,7 @@ def count_elements(array)
     hash[:count] = 1
   end
   array.sort do |a, b|
-    if a == b
+    if a[:name] == b[:name]
       a[:count] += 1
       b[:count] += 1
     end
