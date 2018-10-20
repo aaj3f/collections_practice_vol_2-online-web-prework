@@ -33,11 +33,10 @@ def count_elements(array)
   array.each do |hash|
     hash[:count] = 1
   end
-  array.each do |hash|
-    hash.sort do |a, b|
-      if a == b
-        a[:count] += 1
-      end
+  array.sort do |a, b|
+    if a == b
+      a[:count] += 1
+      b[:count] += 1
     end
   end
   array.uniq
