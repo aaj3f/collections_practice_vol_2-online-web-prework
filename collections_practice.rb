@@ -30,10 +30,5 @@ end
 ## Anyway, the method below is broken right now
 ## I'll try to return once I've learned more on hashes
 def count_elements(array)
-  new_array = Array.new
-  new_hash = Hash.new
-  array.sort do |a, b|
-    if a == b
-      new_hash << a
-      new_array <<
-  new_array << new_hash
+
+end
