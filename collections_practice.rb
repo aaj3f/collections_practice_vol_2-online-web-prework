@@ -35,7 +35,7 @@ def count_elements(array)
     name = hash_one[:name]
     array.each do |hash_two|
       if name == hash_two[:name]
-        hash[:count] += 1
+        hash_one[:count] += 1
       end
     end
   end
